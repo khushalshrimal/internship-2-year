@@ -1,23 +1,16 @@
+#1) Practice print statement: - with multiple object - with seperator - with "ends" 
 
-name = input("Enter student name: ")
-student_class = input("Enter class: ")
+name = "Lakshya"
+age = 20
 
-# Taking marks of 5 subjects
-mark1 = float(input("Enter marks of Subject 1: "))
-mark2 = float(input("Enter marks of Subject 2: "))
-mark3 = float(input("Enter marks of Subject 3: "))
-mark4 = float(input("Enter marks of Subject 4: "))
-mark5 = float(input("Enter marks of Subject 5: "))
+print("Name:", name, "Age:", age)
 
+print("2026", "05", "23", sep="-")
 
-total = mark1 + mark2 + mark3 + mark4 + mark5
+print("Lakshya", "Bhandari", sep="_")
 
+print("Hello", end=" ")
+print("World")
 
-percentage = (total / 500) * 100
-
-
-print("\n----- Student Result -----")
-print("Name :", name)
-print("Class :", student_class)
-print("Total Marks :", total)
-print("Percentage :", percentage, "%")
+print("Python", end=" -> ")
+print("Programming")
